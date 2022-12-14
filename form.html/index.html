@@ -9,7 +9,7 @@
 </head>
 
 <body>
-    <form method="get">
+    <!-- <form method="get">
         <p> Name : <input type="text" name="username"></p>
         <p>F Name : <input type="text" name="fname"></p>
         <p>Password : <input type="password"></p>
@@ -28,7 +28,83 @@
 
 
         <p><input type="submit" name="submit" value="send"></p>
+    </form> -->
+
+
+
+
+
+
+    <form action="" method="get ">
+        <p><b>NAME</b> : <input required type="text" name="username"></p>
+        <p> <b>Password</b>: <input required type="password" name="password"></p>
+        <p> <b>Date</b> : <input required type="date"></p>
+        <p> <b>Time</b>: <input required type="time"></p>
+        <p><textarea name="textarea" id="" cols="30" rows="6">Commit....</textarea></p>
+        <p>
+        <h1>Select your gender</h1>
+        <hr>
+        <br>
+        <label><input type="radio" value="Male" name="gender">Male</label>
+        <label><input type="radio" value="Female" name="gender">Female</label>
+        </p>
+        <hr>
+        <p>
+
+        <h1>languages</h1>
+        <hr>
+        <label><input type="checkbox" name="lang" value="URDU">URDU</label>
+        <label> <input type="checkbox" name="lang" value="HINDI">HINDI</label>
+        <label><input type="checkbox" name="lang" value="TURKISH">TURKISH</label>
+        <label><input type="checkbox" name="lang" value="ENGLISH">ENGLISH</label>
+
+            </p>
+            <hr>
+
+            <label>
+                <h1>select your country</h1>
+                <hr>
+
+                <select name="Country">
+                    <option value="Pakistan">Pakistan</option>
+                    <option value="India">India</option>
+                    <option value="Srilanka">Srilanka</option>
+                    <option value="Bangaladesh">Bangaladesh</option>
+
+                </select>
+            </label>
+            <p><input type="file" name="file"></p>
+            <!-- <p><input type="image" src="../images.html/image.png"></p> -->
+            <p><input type="button" name="" value="sendBTN"></p>
+             
+             <label ><input type="search" placeholder="search">Search</label>
+
+            <!-- <fieldset>
+                <legend>zain</legend>
+                <label>E mail: <br>
+                  <input type="text">
+                 </label><br>
+                <label>Password : <br>
+                    <input type="password">
+
+                </label>
+            </fieldset> -->
+
+
+
+
+
+
+
+
+
+            <p><input type="submit" value="send"></p>
+
     </form>
+
+
+
+
 </body>
 
 </html>
