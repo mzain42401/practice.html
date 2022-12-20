@@ -10,95 +10,85 @@
 <style>
     * {
         margin: 0;
-        padding:0;
+        padding: 0;
         font-family: sans-serif;
     }
-
-    #Row_span {
-        empty-cells: hide;
-        width: 20px;
-    }
-
-    .Col_span {
-        empty-cells: hide;
-    }
-
-    #col_span {
-        empty-cells: hide;
-        height: 20px;
+    .Table{
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20px;
+        
     }
 
     td {
         height: 40px;
         width: 50px;
+        border-radius: 4px;
+        padding: 2px;
+        font-size: 20px;
+    }
+
+    sup {
+        font-size: 10px;
     }
 
     .Group_1 {
         background-color: #d8f8ff;
-        border: none;
         color: #00758c;
         stroke: #00758c;
     }
 
     .Group_2 {
         background-color: #ffe7e7;
-        border: none;
         color: #d60024;
         stroke: #d60024;
     }
 
     .Group_3 {
         background-color: #f3e8fd;
-        border: none;
         color: #6232ec;
         stroke: #6232ec;
     }
 
     .Group_4 {
         background-color: #e7e7ea;
-        border: none;
         color: #3f374f;
         stroke: #3f374f;
     }
 
     .Group_5 {
         background-color: #d6f9e8;
-        border: none;
     }
 
     .Group_6 {
         background-color: #fef7e0;
-        border: none;
         color: #945700;
         stroke: #945700;
     }
 
     .Group_7 {
         background-color: #e2eeff;
-        border: none;
         color: #0060f0;
         stroke: #0060f0;
     }
 
     .Group_8 {
         background-color: #dff3ff;
-        border: none;
         stroke: #003355;
     }
 
     .Group_9 {
         background-color: #ffe6d4;
-        border: none;
         color: #c73200;
         stroke: #c73200
     }
 </style>
 
 <body>
-    <table>
+    <table class="Table">
         <tr>
             <td class="Group_7"><sup>1</sup> H </td>
-            <td class="Col_span" colspan="17"> </td>
+            <td colspan="17"> </td>
             <td class="Group_2"><sup>2</sup> He </td>
 
         </tr>
@@ -106,7 +96,7 @@
         <tr>
             <td class="Group_1"><sup>3</sup> Li</td>
             <td class="Group_2"><sup>4</sup> Be</td>
-            <td class="Col_span" colspan="11"> </td>
+            <td colspan="11"> </td>
             <td class="Group_6"><sup>5</sup> B </td>
             <td class="Group_7"><sup>6</sup> C </td>
             <td class="Group_7"><sup>7</sup> N </td>
@@ -119,7 +109,7 @@
         <tr>
             <td class="Group_1"><sup>11</sup> Na</td>
             <td class="Group_2"><sup>12</sup> Mg</td>
-            <td class="Col_span" colspan="11"> </td>
+            <td colspan="11"> </td>
             <td class="Group_5"><sup>13</sup> Al</td>
             <td class="Group_6"><sup>14</sup> Si</td>
             <td class="Group_7"><sup>15</sup> P </td>
@@ -132,7 +122,7 @@
             <td class="Group_1"><sup>19</sup> K </td>
             <td class="Group_2"><sup>20</sup> Ca</td>
             <td class="Group_3"><sup>21</sup> Sc</td>
-            <td id="Row_span" rowspan="8"></td>
+            <td rowspan="8"></td>
             <td class="Group_3"><sup>22</sup> Ti</td>
             <td class="Group_3"><sup>23</sup> V </td>
             <td class="Group_3"><sup>24</sup> Cr</td>
@@ -219,49 +209,49 @@
 
 
         <tr>
-            <td id="col_span" colspan="19"></td>
+            <td colspan="19"></td>
         </tr>
 
 
         <tr>
-            <td style="empty-cells: hide;" colspan="3"></td>
+            <td colspan="3"></td>
 
-            <td class="Group_8"><sup>104</sup> Rf</td>
-            <td class="Group_8"><sup>105</sup> Db</td>
-            <td class="Group_8"><sup>106</sup> Sg</td>
-            <td class="Group_8"><sup>107</sup> Bh</td>
-            <td class="Group_8"><sup>108</sup> Hs</td>
-            <td class="Group_8"><sup>109</sup> Mt</td>
-            <td class="Group_8"><sup>110</sup> Ds</td>
-            <td class="Group_8"><sup>111</sup> Rg</td>
-            <td class="Group_8"><sup>112</sup> Cn</td>
-            <td class="Group_8"><sup>113</sup> Nh</td>
-            <td class="Group_8"><sup>114</sup> Fl</td>
-            <td class="Group_8"><sup>115</sup> Mc</td>
-            <td class="Group_8"><sup>116</sup> Lv</td>
-            <td class="Group_8"><sup>117</sup> Ts</td>
-            <td class="Group_8"><sup>118</sup> Og</td>
+            <td class="Group_8"><sup>58</sup> Rf</td>
+            <td class="Group_8"><sup>59</sup> Db</td>
+            <td class="Group_8"><sup>60</sup> Sg</td>
+            <td class="Group_8"><sup>61</sup> Bh</td>
+            <td class="Group_8"><sup>62</sup> Hs</td>
+            <td class="Group_8"><sup>63</sup> Mt</td>
+            <td class="Group_8"><sup>64</sup> Ds</td>
+            <td class="Group_8"><sup>65</sup> Rg</td>
+            <td class="Group_8"><sup>66</sup> Cn</td>
+            <td class="Group_8"><sup>67</sup> Nh</td>
+            <td class="Group_8"><sup>68</sup> Fl</td>
+            <td class="Group_8"><sup>69</sup> Mc</td>
+            <td class="Group_8"><sup>70</sup> Lv</td>
+            <td class="Group_8"><sup>71</sup> Ts</td>
+            
 
         </tr>
 
         <tr>
-            <td style="empty-cells: hide;" colspan="3"></td>
+            <td colspan="3"></td>
 
-            <td class="Group_9"><sup>104</sup> Rf</td>
-            <td class="Group_9"><sup>105</sup> Db</td>
-            <td class="Group_9"><sup>106</sup> Sg</td>
-            <td class="Group_9"><sup>107</sup> Bh</td>
-            <td class="Group_9"><sup>108</sup> Hs</td>
-            <td class="Group_9"><sup>109</sup> Mt</td>
-            <td class="Group_9"><sup>110</sup> Ds</td>
-            <td class="Group_9"><sup>111</sup> Rg</td>
-            <td class="Group_9"><sup>112</sup> Cn</td>
-            <td class="Group_9"><sup>113</sup> Nh</td>
-            <td class="Group_9"><sup>114</sup> Fl</td>
-            <td class="Group_9"><sup>115</sup> Mc</td>
-            <td class="Group_9"><sup>116</sup> Lv</td>
-            <td class="Group_9"><sup>117</sup> Ts</td>
-            <td class="Group_9"><sup>118</sup> Og</td>
+            <td class="Group_9"><sup>90</sup> Th</td>
+            <td class="Group_9"><sup>91</sup> Pa</td>
+            <td class="Group_9"><sup>92</sup> U</td>
+            <td class="Group_9"><sup>93</sup> Np</td>
+            <td class="Group_9"><sup>94</sup> Pu</td>
+            <td class="Group_9"><sup>95</sup> Am</td>
+            <td class="Group_9"><sup>96</sup> Cm</td>
+            <td class="Group_9"><sup>97</sup> Bk</td>
+            <td class="Group_9"><sup>98</sup> Cf</td>
+            <td class="Group_9"><sup>99</sup> Es</td>
+            <td class="Group_9"><sup>100</sup> Fi</td>
+            <td class="Group_9"><sup>101</sup> M</td>
+            <td class="Group_9"><sup>102</sup> No</td>
+            <td class="Group_9"><sup>103</sup> Lr</td>
+            
 
         </tr>
     </table>
